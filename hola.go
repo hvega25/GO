@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
 	"math/big"
-	"time"
 )
 
 // Función para calcular el factorial de un número grande
@@ -16,25 +14,29 @@ func factorial(n *big.Int) *big.Int {
 }
 
 func main() {
-	var numero int64
 
-	// Solicitar al usuario que ingrese un número
-	fmt.Print("Ingrese un número para calcular el factorial: ")
-	fmt.Scan(&numero)
+	/*
+		var numero int64
 
-	// Crear un nuevo big.Int desde el número ingresado
-	numeroGrande := big.NewInt(numero)
+		// Solicitar al usuario que ingrese un número
+		fmt.Print("Ingrese un número para calcular el factorial: ")
+		fmt.Scan(&numero)
 
-	// Medir el tiempo de ejecución
-	startTime := time.Now()
+		// Crear un nuevo big.Int desde el número ingresado
+		numeroGrande := big.NewInt(numero)
 
-	// Calcular el factorial
-	resultado := factorial(numeroGrande)
+		// Medir el tiempo de ejecución
+		startTime := time.Now()
 
-	// Obtener la duración del tiempo de ejecución
-	duration := time.Since(startTime)
+		// Calcular el factorial
+		resultado := factorial(numeroGrande)
 
-	// Mostrar el resultado y el tiempo de ejecución
-	fmt.Printf("El factorial de %d es: %s\n", numero, resultado.String())
-	fmt.Printf("Tiempo de ejecución: %s\n", duration)
+		// Obtener la duración del tiempo de ejecución
+		duration := time.Since(startTime)
+
+		// Mostrar el resultado y el tiempo de ejecución
+		fmt.Printf("El factorial de %d es: %s\n", numero, resultado.String())
+		fmt.Printf("Tiempo de ejecución: %s\n", duration)*/
+
+	funcionB()
 }
